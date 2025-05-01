@@ -17,16 +17,6 @@ import java.util.Locale
 
 class home : AppCompatActivity() {
 
-    // Day ViewContainer
-    class DayViewContainer(view: View) : ViewContainer(view) {
-        val textView: TextView = view.findViewById(R.id.calendarDayText)
-    }
-
-    // Month Header ViewContainer
-    class MonthViewContainer(view: View) : ViewContainer(view) {
-        val textView: TextView = view.findViewById(R.id.monthText)
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home)
